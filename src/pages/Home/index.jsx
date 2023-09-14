@@ -16,14 +16,13 @@ const Home = () => {
       <Header />
       <C.homeContainer>
         <Featured />
-          <C.homeTitle1>Browse by property type</C.homeTitle1>
-          <PropertyList />
-          <C.homeTitle1>Homes guests love</C.homeTitle1>
-          <FeaturedProperties />
-          <MailList />
-          <Footer />
+        <C.homeTitle1>Browse by property type</C.homeTitle1>
+        <PropertyList />
+        <C.homeTitle1>Homes guests love.</C.homeTitle1>
+        <FeaturedProperties />
+        <MailList />
+        <Footer />
       </C.homeContainer>
-
     </>
   )
 }
