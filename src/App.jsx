@@ -6,13 +6,13 @@ import {
 
 import Hotel from "./pages/hotel";
 import List from "./pages/List";
-import Homepage from "./pages/Homepage";
+import Home from "./pages/Home";
 
-function Home() {
+function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<Home />} />
         <Route path="/hotels" element={<List />} />
         <Route path="/hotels/:id" element={<Hotel />} />
       </Routes>
@@ -20,4 +20,4 @@ function Home() {
   )
 }
 
-export default Home;
+export default App;

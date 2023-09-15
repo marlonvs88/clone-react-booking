@@ -9,7 +9,7 @@ import MailList from '../../components/MailList';
 import Footer from '../../components/Footer';
 
 
-const Homepage = () => {
+const Home = () => {
   return (
     <>
       <Navbar />
@@ -27,4 +27,4 @@ const Homepage = () => {
   )
 }
 
-export default Homepage
+export default Home
