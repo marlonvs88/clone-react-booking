@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hotel = () => {
   return (
-    <div>Hotel</div>
+    <div>Hotel com id</div>
   )
 }
 

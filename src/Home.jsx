@@ -3,15 +3,16 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import List from "./pages/list";
-import Hotel from "./pages/hotel";
 
-function App() {
+import Hotel from "./pages/hotel";
+import List from "./pages/List";
+import Homepage from "./pages/Homepage";
+
+function Home() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Homepage />} />
         <Route path="/hotels" element={<List />} />
         <Route path="/hotels/:id" element={<Hotel />} />
       </Routes>
@@ -19,4 +20,4 @@ function App() {
   )
 }
 
-export default App;
+export default Home;
