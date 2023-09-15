@@ -7,7 +7,6 @@ import Home from "./pages/home";
 import List from "./pages/list";
 import Hotel from "./pages/hotel";
 
-
 function App() {
   return (
     <BrowserRouter>
