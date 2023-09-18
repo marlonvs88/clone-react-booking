@@ -4,9 +4,9 @@ import {
     Route,
 } from "react-router-dom";
 
-import Hotel from "./pages/hotel";
-import List from "./pages/List";
-import Home from "./pages/Home";
+import Hotel from "./pages/Hotel/Hotel.jsx";
+import List from "./pages/List/List.jsx";
+import Home from "./pages/Home/Home.jsx";
 
 function App() {
     return (
