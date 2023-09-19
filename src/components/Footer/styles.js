@@ -9,6 +9,7 @@ export const FLists = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
 `;
 export const FList = styled.ul`
     padding: 0;

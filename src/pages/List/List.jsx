@@ -15,7 +15,7 @@ const List = () => {
     const [options, setOptions] = useState(location.state?.options || []);
 
     return (
-        <div>
+        <>
             <Navbar />
             <Header type="list" />
             <C.ListContainer>
@@ -74,7 +74,7 @@ const List = () => {
                     </C.ListResult>
                 </C.ListWrapper>
             </C.ListContainer>
-        </div>
+        </>
     );
 };
 
