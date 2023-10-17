@@ -13,7 +13,7 @@ O projeto ReactCloneBooking foi desenvolvido com o intuito de aprimorar e demons
 
 ## 🎨 Preview do Projeto
 
-Você pode conferir o projeto em ação através deste [https://clone-react-booking-marlonvs88.vercel.app/](#) 
+Você pode conferir o projeto em ação através deste https://clone-react-booking-marlonvs88.vercel.app/
 
 ## 🚧 Como Rodar o Projeto
 
